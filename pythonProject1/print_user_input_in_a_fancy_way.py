@@ -1,5 +1,7 @@
 from art import text2art
 from colorama import Fore
+import sys
+import time
 
 # pseudocode
 
@@ -31,4 +33,16 @@ print(Fore.LIGHTCYAN_EX + text2art(str(age), font='block', chr_ignore=True))
 print(Fore.LIGHTMAGENTA_EX + text2art("Dream Job: ", font='block'))
 print(Fore.LIGHTCYAN_EX + text2art(dream_job, font='block', chr_ignore=True))
 # add printing animation
+for char in name:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.001)
+for char in str(age):
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.001)
+for char in dream_job:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.001)
 # add printing animation function
