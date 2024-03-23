@@ -22,7 +22,13 @@ art_age = text2art(str(age), font='block', chr_ignore=True)
 # add art to dream job
 art_dream_job = text2art(dream_job, font='block', chr_ignore=True)
 # print name in a fancy way
+print(Fore.LIGHTMAGENTA_EX + text2art("Name: ", font='block', chr_ignore=True))
+print(Fore.LIGHTCYAN_EX + text2art(name, font='block', chr_ignore=True))
 # print age in a fancy way
+print(Fore.LIGHTMAGENTA_EX + text2art("Age: ", font='block'))
+print(Fore.LIGHTCYAN_EX + text2art(str(age), font='block', chr_ignore=True))
 # print dream job in a fancy way
+print(Fore.LIGHTMAGENTA_EX + text2art("Dream Job: ", font='block'))
+print(Fore.LIGHTCYAN_EX + text2art(dream_job, font='block', chr_ignore=True))
 # add printing animation
 # add printing animation function
