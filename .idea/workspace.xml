@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bef95843-ed84-4d84-a144-3e2d2f9addd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/print_user_input_in_a_fancy_way.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/print_user_input_in_a_fancy_way.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonProject1/print_user_input_in_a_fancy_way.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject1/print_user_input_in_a_fancy_way.py" afterDir="false" />
     </list>
@@ -58,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711201918031</updated>
       <workItem from="1711201920940" duration="56000" />
-      <workItem from="1711201995529" duration="470000" />
+      <workItem from="1711201995529" duration="647000" />
     </task>
     <servers />
   </component>
